@@ -1,0 +1,17 @@
+.numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100px;
+}
+.clear{
+    grid-column: 1/4;
+}
+.tela{
+    width: 100px;
+    height: 20px;
+    background-color: aqua;
+}
+.calculadora{
+    border: 1px solid;
+    width: 100px;
+}
