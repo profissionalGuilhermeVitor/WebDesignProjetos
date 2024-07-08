@@ -7,8 +7,8 @@ let xo = {
     idade:29,
     trabalha:false,
     nomeCompleto:function(){
-        return this.nome + " "+ this.rua
+        return this.numero + " "+ this.rua
     }
 }
 
-console.log(xo.nomeCompleto())
+document.write(xo.nomeCompleto())
